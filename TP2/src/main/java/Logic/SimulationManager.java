@@ -88,17 +88,15 @@ public class SimulationManager implements Runnable {
             int arrivalTime = random.nextInt(minArrivalTime, maxArrivalTime + 1);
             int serviceTime = random.nextInt(minServiceTime, maxServiceTime + 1);
 
-            svcTime += serviceTime;
             Client c = new Client(i, arrivalTime, serviceTime);
 
             generatedClients.add(c);
         }
-        this.avgServiceTime = svcTime / numberOfClients;
     }
 
     @Override
     public void run() {
-        
+
         File file = new File(fileLogName);
         try {
             file.createNewFile();
@@ -110,7 +108,7 @@ public class SimulationManager implements Runnable {
         int initNoClient = generatedClients.size();
         String strRes = "";
         String strCurrTime = "";
-
+        int peekC = 0;
         while (currentTime < timeLimit) {
             System.out.println(currentTime);
             double currAvg = 0.0;
@@ -125,8 +123,12 @@ public class SimulationManager implements Runnable {
                     k++;
                 }
             }
+
             avgWaitingTime += currAvg;
-            peekHour = peekHourS();
+            if (peekClients() > peekC) {
+                peekC = peekClients();
+                peekHour = currentTime;
+            }
 
             strCurrTime = strResFunc(currentTime);
             updateFrmae(strCurrTime);
@@ -139,19 +141,12 @@ public class SimulationManager implements Runnable {
         writeInLog(file, strRes);
     }
 
-    public void updateFrmae(String strCurrTime) {
-        if (this.simFrame != null)
-            this.simFrame.getStatusArea().setText(strCurrTime);
-    }
-
     public double svrWait() {
         return scheduler.getServersWait();
     }
 
-    public int peekHourS() {
-        if (scheduler.getServersTotal() > peekHour)
-            peekHour = scheduler.getServersTotal();
-        return peekHour;
+    public int peekClients() {
+        return scheduler.getServersTotal();
     }
 
     private String strResFunc(int currentTime) {
@@ -177,6 +172,11 @@ public class SimulationManager implements Runnable {
         strRes += "\n";
 
         return strRes;
+    }
+
+    public void updateFrmae(String strCurrTime) {
+        if (this.simFrame != null)
+            this.simFrame.getStatusArea().setText(strCurrTime);
     }
 
     public void sleep1sec() {
