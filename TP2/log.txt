@@ -1,0 +1,3 @@
+Avg. waiting time: 0.0
+Avg. service time: NaN
+Peek hour: 0

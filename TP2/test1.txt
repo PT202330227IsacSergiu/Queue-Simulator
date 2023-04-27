@@ -1,0 +1,543 @@
+TIME: [0]
+
+Waiting:
+(1, 8, 4)  (2, 4, 3)  (3, 4, 4)  (4, 6, 3)  
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [1]
+
+Waiting:
+(1, 8, 4)  (2, 4, 3)  (3, 4, 4)  (4, 6, 3)  
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [2]
+
+Waiting:
+(1, 8, 4)  (2, 4, 3)  (3, 4, 4)  (4, 6, 3)  
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [3]
+
+Waiting:
+(1, 8, 4)  (2, 4, 3)  (3, 4, 4)  (4, 6, 3)  
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [4]
+
+Waiting:
+(1, 8, 4)  (4, 6, 3)  
+
+Queue 1: (2, 4, 3) 
+Queue 2: (3, 4, 4) 
+
+
+TIME: [5]
+
+Waiting:
+(1, 8, 4)  (4, 6, 3)  
+
+Queue 1: (2, 4, 2) 
+Queue 2: (3, 4, 3) 
+
+
+TIME: [6]
+
+Waiting:
+(1, 8, 4)  
+
+Queue 1: (2, 4, 1) (4, 6, 3) 
+Queue 2: (3, 4, 2) 
+
+
+TIME: [7]
+
+Waiting:
+(1, 8, 4)  
+
+Queue 1: (4, 6, 3) 
+Queue 2: (3, 4, 1) 
+
+
+TIME: [8]
+
+Waiting:
+
+
+Queue 1: (4, 6, 2) 
+Queue 2: (1, 8, 4) 
+
+
+TIME: [9]
+
+Waiting:
+
+
+Queue 1: (4, 6, 1) 
+Queue 2: (1, 8, 3) 
+
+
+TIME: [10]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: (1, 8, 2) 
+
+
+TIME: [11]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: (1, 8, 1) 
+
+
+TIME: [12]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [13]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [14]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [15]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [16]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [17]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [18]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [19]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [20]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [21]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [22]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [23]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [24]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [25]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [26]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [27]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [28]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [29]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [30]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [31]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [32]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [33]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [34]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [35]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [36]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [37]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [38]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [39]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [40]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [41]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [42]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [43]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [44]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [45]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [46]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [47]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [48]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [49]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [50]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [51]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [52]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [53]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [54]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [55]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [56]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [57]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [58]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+TIME: [59]
+
+Waiting:
+
+
+Queue 1: 
+Queue 2: 
+
+
+Avg. waiting time: 7.75
+Avg. service time: 3.5
+Peek hour: 3
